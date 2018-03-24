@@ -8,6 +8,12 @@ use App\Conversations\ExampleConversation;
 
 class BotManController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('verifyCertificate');
+    }
+
     /**
      * Place your BotMan logic here.
      */
