@@ -11,7 +11,7 @@ class BotManController extends Controller
 
     public function __construct()
     {
-        $this->middleware('verifyCertificate');
+//        $this->middleware('verifyCertificate');
     }
 
     /**
